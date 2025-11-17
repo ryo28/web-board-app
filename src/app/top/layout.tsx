@@ -1,5 +1,5 @@
 export default function topLayout({
-  children,
+    children,
 }: Readonly<{ children: React.ReactNode }>) {
-  return <main>{children}</main>;
+    return <main>{children}</main>;
 }
