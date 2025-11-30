@@ -7,7 +7,13 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!node_modules", "!.next", "!dist", "!build"]
+    "includes": [
+      "**",
+      "!node_modules",
+      "!.next",
+      "!dist",
+      "!build"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -21,11 +27,11 @@
       "suspicious": {
         "noUnknownAtRules": "off"
       },
-       "nursery": {
+      "nursery": {
         "useSortedClasses": {
-      "level": "error",
-      "fix": "safe"
-    }
+          "level": "error",
+          "fix": "safe"
+        }
       }
     },
     "domains": {

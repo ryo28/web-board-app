@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { MswProvider } from "@/components/MswProvider";
 
 export const metadata: Metadata = {
     title: "掲示板アプリ",
@@ -12,9 +11,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="ja">
-            <body>
-                <MswProvider>{children}</MswProvider>
-            </body>
+            <body>{children}</body>
         </html>
     );
 }
